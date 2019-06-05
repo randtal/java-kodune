@@ -1,4 +1,4 @@
-package Mandatory_three;
+package rando_kodu;
 
 import java.io.IOException;
 import java.lang.*;
@@ -9,9 +9,9 @@ interface executingFile{
 
     public String[] cutTextIntoWords();
 
-    public String returnInLowercase() throws IOException;
+    public String changeToLowercase() throws IOException;
 
-    public String countWords(int wordLen);
+    public Integer countWords(int wordLen);
 
 }
 
